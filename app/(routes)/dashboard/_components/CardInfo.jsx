@@ -2,6 +2,7 @@ import { index } from 'drizzle-orm/mysql-core';
 import { ChartNoAxesColumn, ReceiptText, Wallet } from 'lucide-react'
 import React, { useEffect , useState } from 'react'
 
+
 function CardInfo({budgetList}) {
 
     const [totalBudget,setTotalBudget]=useState(0);
