@@ -1,6 +1,7 @@
 import React from 'react'
 import { Bar, BarChart, Legend, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts'
 
+
 function BarChartDashboard({budgetList}) {
   return (
     <div className='border rounded-lg p-5'>
